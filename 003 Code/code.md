@@ -76,5 +76,5 @@ HackRF-One을 연결한 Linux 환경에서 행한다.
 
 
 
-hackrf https://github.com/greatscottgadgets/hackrf.git
-gps-sdr-sim https://github.com/osqzss/gps-sdr-sim
+[hackrf](https://github.com/greatscottgadgets/hackrf.git)
+[gps-sdr-sim](https://github.com/osqzss/gps-sdr-sim)
