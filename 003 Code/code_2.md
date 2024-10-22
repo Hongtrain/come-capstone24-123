@@ -37,6 +37,14 @@
 > ```
 
 
+> /etc/sysctl.conf
+>
+> 다음 줄의 주석을 제거
+> ```bash
+> net.ipv4.ip_forward=1
+> ```
+
+
 > AP 호스트 서비스 시작
 >
 > ```bash
@@ -46,7 +54,11 @@
 > ```
 
 
-
+> NAT 설정 추가
+>
+> ```bash
+> sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+> ```
 
 
 
