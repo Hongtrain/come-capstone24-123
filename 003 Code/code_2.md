@@ -59,7 +59,8 @@ AP 구성을 완료한 기기에서 사용자 인증을 실행
 
 
 > ```bash
-> git clone https://github.com/this_github_link_code_files
+> sudo python3 -m pip install scapy
+> sudo git clone https://github.com/this_github_link_code_files
 > cd file_folders
 > sudo python3 python_file_name
 > ```
